@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(gory27.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: 	no-repeat;
+	min-height: 720px;
+}
+.roof{
+	margin: 0 auto;
+	width: 1349px;
+	text-align: center;
+	background: #71C3FF;
+	background-attachment: scroll;
+	height: 50px;
+	position: fixed;
+	border-radius: 0 0 3px 3px;
+}
+.header{
+	width: 701px;
+	font-size: 20px;
+	text-align: center;
+	margin: 0px 324px 30px;
+	padding-top: 50px;
+	background: #fff;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	border-radius: 15px;
+	z-index: 1000;
+{
+
+.header_text{
+	z-index: 1001;
+}
+	
+.logo{
+	float: left;
+
+}
+.wrapper
+{
+	
+}

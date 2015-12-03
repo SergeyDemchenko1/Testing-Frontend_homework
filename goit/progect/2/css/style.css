@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Arial, sans-serif;
+}
+.wraper{
+	width: 968px;
+	padding: 0 46px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+}
+/*HEADER*/	
+
+.header{
+	padding-top: 0px;
+	margin-bottom: 40px;
+}	
+.logo{
+	text-align: center;
+}
+
+.menu{
+	position: relative;
+	overflow: hidden;
+	margin-top: 40px;
+background: #444343; /* Old browsers */
+background: linear-gradient(to bottom,  #444343 0%,#5e5e5e 100%,#2989d8 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+border-radius: 5px;
+}
+
+.menu li{
+	list-style: none;
+	float: left;
+}
+
+.menu a{
+	color: #fff;
+	line-height: 40px;
+	display: block;
+	text-decoration: none;
+	padding: 0 40px;
+	font-size: 15px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.menu a:hover{
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+background: #222222; /* Old browsers */
+background: linear-gradient(to bottom,  #222222 0%,#5e5e5e 100%,#2989d8 100%,#2a2a2a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+/*CONTENT*/
+.content{
+	position: relative;
+	overflow: hidden;
+}
+.sidebar{
+	float: left;
+	width: 240px;
+}
+
+.side-menu{
+	border: 1px solid #c8c8c8;
+}
+.side-menu a{
+	padding-left: 20px;
+	line-height: 37px;
+	color: #656363;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+.side-menu li{
+	border-top: 1px solid #c8c8c8;
+}
+.side-menu li:first-child{
+	border: none;
+}
+.side-menu a:hover{
+	padding-left:  28px;
+	/*background: #484848;
+	color: #f9f9f9;*/
+}
+.product{
+	float: right;
+	width: 680px;
+}
+.product-image{
+	border: 1px solid #c8c8c8;
+	text-align: center;
+	padding: 40px 0;
+}
+.description{
+	padding: 30px 0 0 22px;
+	line-height: 21px;
+	font-size: 15px;
+	color: #2c2c2c;
+}
+/*FOOTER*/
+.footer{
+	padding: 50px 0;
+}
+
+.footer-menu{
+	position: relative;
+	overflow: hidden;
+	background: #e1e1e1;
+	border-radius: 5px;
+}
+.footer-menu .copyright{
+	float: right;
+	padding-right: 26px;
+}
+.footer-menu li{
+	float: left;
+	list-style: none;
+	line-height: 40px;
+}
+
+.footer-menu a{
+	padding: 0 50px;
+	display: block;
+	color: #2c2c2c;
+	text-decoration: none;
+}
